@@ -7,14 +7,14 @@ void main() {
   if (Firebase.apps.isEmpty) {
     print(Firebase.apps);
     Firebase.initializeApp(
-      apiKey: '${{secrets.apiKey}}',
-      authDomain: '${{secrets.authDomain}}',
-      databaseURL: '${{secrets.databaseURL}}',
-      projectId: '${{secrets.projectId}}',
-      storageBucket: '${{secrets.storageBucket}}',
-      messagingSenderId: '${{secrets.messagingSenderId}}',
-      appId: '${{secrets.appId}}',
-      measurementId: '${{secrets.measurementId}}',
+      apiKey: "AIzaSyANeZj_oNVh4lQ_aTkful3XP6wrwshQuig",
+      authDomain: "personalbudgetworkshop.firebaseapp.com",
+      databaseURL: "https://personalbudgetworkshop.firebaseio.com",
+      projectId: "personalbudgetworkshop",
+      storageBucket: "personalbudgetworkshop.appspot.com",
+      messagingSenderId: "539443181051",
+      appId: "1:539443181051:web:4adc6c3927d2b9e72c475e",
+      measurementId: "G-85NTBWFE4X",
     );
   }
   setupDependencyInjection();
